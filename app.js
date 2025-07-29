@@ -59,3 +59,9 @@ function embaralhar(array) {
   }
   return array;
 }
+
+function resetarLista() {
+  listaDeAmigos.length = 0;
+  document.getElementById("listaAmigos").innerHTML = "";
+  document.getElementById("resultado").innerHTML = "";
+}
